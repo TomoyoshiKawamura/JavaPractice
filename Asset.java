@@ -1,10 +1,10 @@
 public abstract class Asset{
     private String name;
-    private int price;
+    private int prices;
 
     public Asset(String name,int price){
         this.name = name;
-        this.price = price;
+        this.price = prices;
     }
 
     /**
